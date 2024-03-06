@@ -19,7 +19,7 @@ namespace _01_connected_mode
             // "Data Source=server_name;Initial Catalog=db_name;Integrated Security=False;User ID=login;Password=password"
             string conn = "Data Source=(localdb)\\ProjectModels; Initial Catalog=SportShop_PV_321;Integrated Security=True;Connect Timeout=2";
             // default Connect Timeout=30
-            SqlConnection connection = new SqlConnection(conn);
+            SqlConnection connection = new SqlConnection();
             connection.Open();
             Console.WriteLine("Connected");
             // ExecuteNonQuery - викoнує команду, яка не повертає результату (insert delete, update), але метод повертає кількість рядків, які були задіяні в команді

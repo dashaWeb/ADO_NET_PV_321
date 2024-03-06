@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_connected mode", "01_con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_params", "02_params\02_params.csproj", "{A1A4C1F4-F05F-40C4-ACBA-13142675364B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Data_access_layer", "03_Data_access_layer\03_Data_access_layer.csproj", "{BEC18CFF-FF89-472B-A959-44A09D29B84F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A1A4C1F4-F05F-40C4-ACBA-13142675364B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1A4C1F4-F05F-40C4-ACBA-13142675364B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1A4C1F4-F05F-40C4-ACBA-13142675364B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC18CFF-FF89-472B-A959-44A09D29B84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC18CFF-FF89-472B-A959-44A09D29B84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC18CFF-FF89-472B-A959-44A09D29B84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC18CFF-FF89-472B-A959-44A09D29B84F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
