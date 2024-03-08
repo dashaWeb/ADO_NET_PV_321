@@ -11,9 +11,16 @@
             <ToolBar DockPanel.Dock="Top">
                 <Button Click="getProducts">Get Products</Button>
             </ToolBar>
-            <DataGrid Name="dataGrid">
+            <DataGrid DockPanel.Dock="Top" Name="dataGrid">
 
             </DataGrid>
+            <Canvas>
+                <Border>
+                    <Border.Child>
+                        <TextBox KeyDown="idProduct_KeyDown" Width="400" Height="20" Name="idProduct"></TextBox>
+                    </Border.Child>
+                </Border>
+            </Canvas>
         </DockPanel>
     </Grid>
 </Window>

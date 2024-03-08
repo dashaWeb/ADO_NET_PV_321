@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _05_data_access.Model;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -30,7 +31,18 @@ namespace _04_ConnectedMode_wpf
 
         private void getProducts(object sender, RoutedEventArgs e)
         {
+            dataGrid.ItemsSource = db.GetAllProducts();
+        }
 
+        private void idProduct_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.Key== Key.Enter) {
+                int id = int.Parse(idProduct.Text);
+                
+                List<Product> prod = new List<Product>();
+                prod.Add(db.getOneProduct(id));
+                dataGrid.ItemsSource = prod;
+            }
         }
 
     }
