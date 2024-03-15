@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace _09_code_first
+namespace _10_loading_tupes
 {
     public class Country
     {

@@ -106,7 +106,6 @@ namespace _09_code_first
                     Console.WriteLine($"\t\t Project : {pr.Name} from {pr.LaunchDate.ToShortDateString()}");
                 }
             }
-
         }
     }
 }

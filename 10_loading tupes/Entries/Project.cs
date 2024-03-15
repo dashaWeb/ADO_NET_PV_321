@@ -1,19 +1,17 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace _09_code_first
+namespace _10_loading_tupes
 {
-    public class Country
+    public class Project
     {
-        public Country()
+        public Project()
         {
             Workers = new HashSet<Worker>();
         }
-
-        // Id, ID, id, CountryId
         public int Id { get; set; }
-        [MaxLength(50)] // nvarchar(50)
         public string Name { get; set; }
+        public DateTime LaunchDate { get; set; }
 
         // Navigation properties
         public virtual ICollection<Worker> Workers { get; set; }

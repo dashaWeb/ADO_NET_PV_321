@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace _09_code_first
-{
+namespace _10_loading_tupes
+{ 
     [Table("Employees")]
     public class Worker
     {
