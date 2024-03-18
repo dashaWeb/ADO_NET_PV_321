@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
     <RootNamespace>_06_Disconnected_mode</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
@@ -10,6 +10,10 @@
 
   <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\05_data_access\05_data_access.csproj" />
   </ItemGroup>
 
 </Project>

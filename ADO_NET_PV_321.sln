@@ -23,7 +23,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_code first", "09_code fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_loading types", "10_loading tupes\10_loading types.csproj", "{BC0AE036-A006-45B2-BE7A-18799044A887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_migrations", "11_migrations\11_migrations.csproj", "{075B0BBE-1B02-4A4E-9CBE-419A95EB8DE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_migrations", "11_migrations\11_migrations.csproj", "{075B0BBE-1B02-4A4E-9CBE-419A95EB8DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Fluent API", "12_Fluent API\12_Fluent API.csproj", "{A61AAA1D-6EE6-4200-9F97-3F26DF59E9CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_data_access_fluent_api", "13_data_access_fluent_api\13_data_access_fluent_api.csproj", "{DE4618ED-93B6-452D-9DC4-DD7AFB33B3F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_fluent_api_wpf", "14_fluent_api_wpf\14_fluent_api_wpf.csproj", "{3516D97F-A192-4583-ABA8-EA74DAB2A8C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{075B0BBE-1B02-4A4E-9CBE-419A95EB8DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{075B0BBE-1B02-4A4E-9CBE-419A95EB8DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{075B0BBE-1B02-4A4E-9CBE-419A95EB8DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61AAA1D-6EE6-4200-9F97-3F26DF59E9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61AAA1D-6EE6-4200-9F97-3F26DF59E9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61AAA1D-6EE6-4200-9F97-3F26DF59E9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61AAA1D-6EE6-4200-9F97-3F26DF59E9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4618ED-93B6-452D-9DC4-DD7AFB33B3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4618ED-93B6-452D-9DC4-DD7AFB33B3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4618ED-93B6-452D-9DC4-DD7AFB33B3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4618ED-93B6-452D-9DC4-DD7AFB33B3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3516D97F-A192-4583-ABA8-EA74DAB2A8C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3516D97F-A192-4583-ABA8-EA74DAB2A8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3516D97F-A192-4583-ABA8-EA74DAB2A8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3516D97F-A192-4583-ABA8-EA74DAB2A8C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

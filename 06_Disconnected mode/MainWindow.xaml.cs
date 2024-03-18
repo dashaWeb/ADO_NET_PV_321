@@ -28,7 +28,7 @@ namespace _06_Disconnected_mode
         public MainWindow()
         {
             InitializeComponent();
-            connection = new SqlConnection(@"Data Source=(localdb)\ProjectModels; Initial Catalog=SportShop_PV_321;Integrated Security=True;Connect Timeout=2");
+            connection = new SqlConnection(@"Data Source=DESKTOP-83U7DVV\SQLEXPRESS; Initial Catalog=SportShop;Integrated Security=True;Connect Timeout=2");
         }
 
         // Fill btn
@@ -40,7 +40,7 @@ namespace _06_Disconnected_mode
             var cmd = new SqlCommandBuilder(da); // auto generate insert, update, delete
             da.Fill(set, "MyTable");
             dataGrid.ItemsSource = set.Tables["MyTable"].DefaultView;
-            commandText.Text = cmd.GetDeleteCommand().CommandText;
+            /*commandText.Text = cmd.GetDeleteCommand().CommandText;*/
         }
         //Update btn
         private void Button_Click_1(object sender, RoutedEventArgs e)
